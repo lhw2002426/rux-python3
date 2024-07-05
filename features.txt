@@ -12,3 +12,4 @@ virtio-9p
 net
 epoll
 select
+tty
