@@ -1,4 +1,4 @@
 app-objs=main.o
-ARGS = /bin/python3.11
-ENVS = PYTHONLIB=/lib,PYTHONHOME=/
+ARGS = /usr/bin/python3.11
+ENVS = PYTHONLIB=/usr/lib,PYTHONHOME=/usr
 V9P_PATH=${APP}/rootfs

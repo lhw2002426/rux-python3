@@ -5,7 +5,7 @@ ARCH=aarch64
 VER=python3.11
 
 jobs=4
-install_dir=$(pwd)/rootfs
+install_dir=$(pwd)/rootfs/usr
 toolchain=${ARCH}-linux-musl
 
 echo "Creating ${install_dir} folder with $(whoami) user permissions ..."
